@@ -1,0 +1,402 @@
+body{
+    background-color: #DCE2DC;
+}
+
+.navbarOri{
+    background-color: #678F70 !important;
+}
+
+/* .nav-brand{
+    margin-left: 30px;
+    margin-top: 0;
+} */
+
+.identity-profile a span{
+    margin-left: 5px;
+    padding-top: 4px;
+}
+
+.link-home{
+    color: #FFFBFB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}
+
+.kategori{
+    background-color: #678F70;
+    color: #FFFBFB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 100px;
+    border: none;
+    font-size: 16px;
+}
+
+.nav-item .logout-btn {
+    background-color: #f01d1d;
+    opacity: 0.8;
+    border-radius: 10px;
+    color: #FFFBFB;
+}
+
+.nav-item .logout-btn:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.nav-item .register-btn {
+    background-color: #f01d1d;
+    opacity: 0.8;
+    border-radius: 10px;
+    color: #FFFBFB;
+}
+
+.nav-item .register-btn:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.nav-item .login-btn {
+    background-color: #2e70ff;
+    opacity: 0.8;
+    border-radius: 10px;
+    color: #FFFBFB;
+}
+
+.nav-item .login-btn:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.nav-item ul {
+    padding: 10px;
+}
+
+.search{
+    border-radius: 35px;
+    /* height: 30px; */
+    background-color: #D2D2D2;
+    border: none;
+}
+
+.search input {
+    border-radius: 35px;
+    background-color: #e9ecef;
+}
+
+.search span button{
+    padding: auto;
+    border: none;
+    background: none;
+}
+
+.search span{
+    border-radius: 35px;
+    color: black;
+    border: none;
+}
+
+.nav-search i{
+    position: absolute;
+    top: 30px;
+    right: 190px;
+    color: darkgray;
+}
+
+.keranjang{
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+.link-login{
+    color: #FFFBFB;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.promo1{
+    position: absolute;
+    left: 60px;
+    top: 130px;
+    width: 800px;
+}
+
+.promo2{
+    left: 900px;
+    top: 120px;
+    position: absolute;
+}
+
+.promo2 img{
+    width: 400px;
+    padding-top: 10px;
+}
+
+.recomend{
+    position: absolute;
+    top: 550px;
+    left: 60px;
+    color: #595959;
+    font-family: Verdana;
+}
+
+footer{
+        background-color: #678F70;
+}
+
+.copyright{
+    font-size: 13px;
+    color: #FFFBFB;
+    margin-top: 8px;
+}
+
+.moreText {
+    display: none;
+}
+
+.text.show-more .moreText {
+    display: inline;
+}
+
+.read-more-btn {
+    color: #0000;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight:500 ;
+}
+
+.read-more-btn:hover {
+    color: #0000;
+    color: rgba(0, 0, 0, 1);
+}
+
+.text.show-more .dots {
+    display: none;
+}
+
+.detail-nav {
+    margin-left: -8px;
+    margin-bottom: -18px;
+}
+
+.kotak {    
+    padding: 1rem;
+    width: auto;
+    background-color: #E8E8E8;
+    box-shadow: 3px 4px 10px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+.btnKeranjang {
+    color: #FFF8F8;
+    padding: 10px;
+    border: none;
+    background-color: #8FA093;
+    border-radius: 25px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.4);
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.btnKeranjang:hover {
+    filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.2));
+    opacity: 1;
+}
+
+.btnBeliSekarang {
+    color: #FFF8F8;
+    padding: 10px;
+    border: none;
+    background-color: #678F70;
+    border-radius: 25px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.4);
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.btnBeliSekarang:hover {
+    filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.2));
+    opacity: 1;
+}
+
+.kotak .plus {
+    border: solid black;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.kotak .plus:hover {
+    filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5));
+    opacity: 1;
+}
+
+.kotak .mines {
+    border: solid black;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.kotak .mines:hover {
+    filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.5));
+    opacity: 1;
+}
+
+.value {
+    font-weight: bold;
+}
+
+.tableDetail .head .one{
+    padding-right: 10rem !important;
+}
+
+.tableDetail .head .two{
+    padding-bottom: 20px;
+}
+
+.diskusi .namaBukuDiskusi {
+    color: #6E716E;
+}
+
+.kotakDiskusi {
+    padding: 8px;
+    width: auto;
+    background-color: #E8E8E8;
+    box-shadow: 3px 4px 10px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+.discuss-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.diskusi p {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.diskusi button {
+    border: none;
+    background-color: #80B5e6;
+    color: #ffffff;
+    border-radius: 30px;
+    margin: 10px;
+    margin-right: 5px;
+    box-shadow: 3px 4px 10px rgba(0,0,0,0.4);
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.diskusi button:hover {
+    filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.1));
+    opacity: 1;
+}
+
+.diskusiBox {
+    background-color: #ededed;
+    padding: 1rem;
+    width: auto; 
+    border-right: solid 1px #d9d9d9;
+    border-left: solid 1px #d9d9d9;
+    border-radius: 2px;
+}
+
+.komentar-profile {
+
+}
+
+.diskusiBox p {
+    color: #282828;
+    margin-left: 15px;
+
+}
+
+.diskusiBox p span {
+    color: #ababab;
+}
+
+.diskusiBox .p2 {
+    margin-top: -40px;
+    margin-bottom: auto;
+}
+
+.diskusiBox.reply{
+    background-color: #e8e8e8;
+    border-top: solid 1px #d9d9d9;
+    border-bottom: solid 1px #d9d9d9;
+}
+
+.diskusiBox.reply p {
+   margin-left: -10px;
+
+}
+
+.hapus a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.hapus a:hover {
+    border-bottom: solid 1px black;
+    color: black;
+}
+
+.checkoutFont h5{
+    color: #787878;
+}
+
+.card {
+    background-color: #e9f0e9 ;
+    padding: 15px;
+    margin-bottom: -20px;
+}
+
+.card img {
+    height: 230px;
+    margin-top: -15px;
+}
+
+.card .card-footer {
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.link-detail {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+.link-detail .card:hover {
+    color: black;
+    box-shadow: 3px 4px 15px rgba(0,0,0,0.1);
+    transition: 0.8;
+}
+
+.nav-info {
+    width: auto;
+    background-color: rgb(63, 100, 72);
+}
+
+.nav-info a {
+    margin-bottom: 0px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+}
+
+.nav-info a:hover {
+    opacity: 0.9;
+}
+
+.rounded-carousel {
+    background-color: rgb(92, 92, 92);
+}
+
+.form-style .input-group{
+    border-radius: 0px;
+}
